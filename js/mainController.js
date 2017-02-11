@@ -8,7 +8,9 @@ angular.module('myApp')
       '../images/2017-02-11_0006.jpg',]
 
       $scope.person = {
-        'image': '../images/2017-02-11_0010.jpg'
+        'image': [
+          '../images/2017-02-11_0010.jpg',
+          '../images/2017-02-11_0011.jpg']
       }
 
     })

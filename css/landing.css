@@ -82,3 +82,27 @@
   padding-left: 17px;
   -webkit-appearance: none;
 }
+
+#addFriend {
+  border: none;
+  background-color: #74FDF2;
+  color: #B6B6B6;
+}
+
+.updateRightColumn {
+  width: 275px;
+  margin-right: 20px;
+}
+
+.updateContent {
+  width: 100%;
+  height: 50px;
+  margin: 5px 0px;
+  font-size: 14px;
+}
+
+#updateChanges {
+  border: none;
+  background-color: #74FDF2;
+  color: #B6B6B6;
+}

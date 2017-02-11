@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app='myApp'>
+<html lang="en" ng-app="myApp">
 
 <head>
 	<meta charset="UTF-8">
@@ -13,7 +13,7 @@
 <body ng-controller="mainCtrl">
 	<main class="main">
 		<header class="header">
-			<img id="SVG" src="../images/icons/search.svg">
+			<img id="SVG" src="../images/icons/Back-Arrow.svg">
 			<span id="devMountain">DevMountain</span>
 			<img id="SVG" src="../images/icons/ham.svg">
 		</header>
@@ -25,10 +25,13 @@
         <h5>SOME AWESOME TAGLINE ABOUT YOU</h5>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        <button class="bioContent" id="addFriend">ADD FRIEND</button>
 			</section>
-			<section class="rightColumn">
-				<img id="profileImage" ng-src="{{person.image[0]}}">
-			</section>
+      <section class="rightColumn">
+        <section class="rightColumn">
+  				<img id="profileImage" ng-src="{{person.image[1]}}">
+  			</section>
+      </section>
 		</section>
 	</main>
 	<footer class="footer">
@@ -37,9 +40,9 @@
 		<a href="#">Update Profile</a>
 	</footer>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
   <script src="../js/app.js"></script>
   <script src="../js/mainController.js"></script>
-
 </body>
 </html>

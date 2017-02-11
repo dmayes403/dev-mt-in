@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app='myApp'>
+<html lang="en" ng-app="myApp">
 
 <head>
 	<meta charset="UTF-8">
@@ -18,18 +18,23 @@
 			<img id="SVG" src="../images/icons/ham.svg">
 		</header>
 		<section class="centerContent">
-			<section class="leftColumn">
-				<span id="nameTitle">Chris</span>
+      <section class="leftColumn">
+        <span id="nameTitle">Chris</span>
         <br />
         <span id="indent">Johnson</span>
         <h5>SOME AWESOME TAGLINE ABOUT YOU</h5>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
 			</section>
-			<section class="rightColumn">
-				<img id="profileImage" ng-src="{{person.image[0]}}">
+			<section class="updateRightColumn">
+					<input class="updateContent" id="fullName" placeholder="Full Name">
+					<input class="updateContent" id="tagline" placeholder="Tagline">
+					<input class="updateContent" id="profileImageUrl" placeholder="Profile Image URL">
+					<textarea class="updateContent" id="bio" placeholder="Bio"></textarea>
+					<button class="bioContent" id="updateChanges">Update Profile</button>
 			</section>
 		</section>
+
 	</main>
 	<footer class="footer">
 		<a href="#">View Friends</a>

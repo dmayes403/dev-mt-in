@@ -29,9 +29,9 @@ body {
 .centerContent {
   /*position: absolute;*/
   max-width: 950px;
-  padding: 40px;
+  padding: 50px;
   margin: auto;
-  /*margin-bottom: 20px;*/
+  margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
   /*transform: translateY(25%);*/
